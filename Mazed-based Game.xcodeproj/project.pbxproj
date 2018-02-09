@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B4B6D60E1E6B17390010FE20 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B6D60D1E6B17390010FE20 /* main.cpp */; };
+		B4B6D6151E6B18140010FE20 /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B6D6141E6B18140010FE20 /* Maze.cpp */; };
+		B4B6D6181E6B18480010FE20 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B6D6171E6B18480010FE20 /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		B4B6D60A1E6B17390010FE20 /* Mazed-based Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mazed-based Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B6D60D1E6B17390010FE20 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B4B6D6141E6B18140010FE20 /* Maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
+		B4B6D6161E6B181F0010FE20 /* Maze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		B4B6D6171E6B18480010FE20 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		B4B6D6191E6B18520010FE20 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B4B6D61A1E6B23F90010FE20 /* PlayerID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerID.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				B4B6D60D1E6B17390010FE20 /* main.cpp */,
+				B4B6D6141E6B18140010FE20 /* Maze.cpp */,
+				B4B6D6161E6B181F0010FE20 /* Maze.h */,
+				B4B6D6171E6B18480010FE20 /* Player.cpp */,
+				B4B6D6191E6B18520010FE20 /* Player.h */,
+				B4B6D61A1E6B23F90010FE20 /* PlayerID.h */,
 			);
 			path = "Mazed-based Game";
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B6D6151E6B18140010FE20 /* Maze.cpp in Sources */,
 				B4B6D60E1E6B17390010FE20 /* main.cpp in Sources */,
+				B4B6D6181E6B18480010FE20 /* Player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
